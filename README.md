@@ -4,13 +4,13 @@ Prediction on diseased chest based on the NIH dataset.
 
 ## Raw data source
 
-This released dataset, chestX-ray, contains 14 knids of chest diseases. 
+This released dataset, chestX-ray, contains 14 kinds of chest diseases. 
 
 Box: https://nihcc.app.box.com/v/ChestXray-NIHCC
 
-`images` refers to the images (after doenloading, you need to extract them first)
+`images` refers to the images (after downloading, you need to extract them first)
 
-`Data_Entry_2017.csv` contains the necessray information related to this method, like the disease distribution
+`Data_Entry_2017.csv` contains the necessary information related to this method, like the disease distribution
 
 ## Baselines
 
@@ -44,10 +44,10 @@ This method contains three baselines: AlexNet, LeNet, VGG-16
     Python modelName.py train_disease_images train_healthy_images train_disease_images test_healthy_images disease_name path
     
 
-`train_disease_images`: (can be found at log file) The number of diseased images of the selected train set
-`train_healthy_images`: (can be found at log file) The number of diseased images of the selected train set
-`test_disease_images`: (can be found at log file) The number of healthy images of the selected test set
-`test_disease_images`: (can be found at log file) The number of healthy images of the selected test set
+`train_disease_images`: (can be found in log file) The number of diseased images of the selected trainSet
+`train_healthy_images`: (can be found in log file) The number of diseased images of the selected trainSet
+`test_disease_images`: (can be found in log file) The number of healthy images of the selected testSet
+`test_disease_images`: (can be found in log file) The number of healthy images of the selected testSet
 `disease_name`: selected one disease from 14 kinds of diseases
 `path`: the path of all the tfrecord datasets generated
 
