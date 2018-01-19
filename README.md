@@ -49,6 +49,7 @@ This method contains three baselines: AlexNet, LeNet, VGG-16
 `test_disease_images`: (can be found in log file) The number of healthy images of the selected testSet
 `test_disease_images`: (can be found in log file) The number of healthy images of the selected testSet
 `disease_name`: selected one disease from 14 kinds of diseases
+
 `path`: the path of all the tfrecord datasets generated
 
 
