@@ -19,8 +19,11 @@ This method is to make the trainSet.tfrecords and testSet.tfrecords
     Python data_extract.py image_path csv_path train_test_choice dataset_choice
 
 `image_path`: the path of your downloaded images
+
 `csv_path`: the path of Data_Entry_2017.csv file
+
 `train_test_choice`: if you plan to make trainSet, you need to set it as 1; if you plan to make testSet, you need to set it as 2
+
 `dataset_choice`: if you don't plan to make the dataset with gender as label, you only need to leave it as 1; otherwise, you should set it as 2 
 
 Output files( `train_test_choice` is 1 or 2, `dataset_choice` is 1):
@@ -34,10 +37,16 @@ This method contains three baselines: AlexNet, LeNet, VGG-16
     Python modelName.py train_disease_images train_healthy_images train_disease_images test_healthy_images disease_name path
     
 `train_disease_images`: (can be found in log file) The number of diseased images of the selected trainSet
+
 `train_healthy_images`: (can be found in log file) The number of diseased images of the selected trainSet
+
 `test_disease_images`: (can be found in log file) The number of healthy images of the selected testSet
+
 `test_disease_images`: (can be found in log file) The number of healthy images of the selected testSet
+
 `disease_name`: selected one disease from 14 kinds of diseases
+
 `path`: the path of all the tfrecord datasets generated
+
 
 
