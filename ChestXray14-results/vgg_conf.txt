@@ -1,0 +1,20 @@
+==============
+Hey! I'm running with the CONDF trick
+==============
+***************************************************** phrase 2
+Test Summary:
+               disease       precision         recall              F1
+0          Atelectasis   9.88467874794  98.3606557377   17.9640718563
+1         Cardiomegaly   3.73831775701  26.6666666667   6.55737704918
+2        Consolidation   5.73248407643          100.0    10.843373494
+3                Edema             0.0            0.0             0.0
+4             Effusion             nan            0.0             0.0
+5            Emphysema             0.0            0.0             0.0
+6             Fibrosis   1.36054421769           50.0   2.64900662252
+7               Hernia  0.164473684211          100.0  0.328407224959
+8         Infiltration   12.8712871287  11.2068965517   11.9815668203
+9                 Mass             nan            0.0             0.0
+10              Nodule   4.96277915633  66.6666666667   9.23787528868
+11  Pleural_Thickening             nan            0.0             0.0
+12           Pneumonia             0.0            0.0             0.0
+13        Pneumothorax   4.49438202247  72.7272727273   8.46560846561
